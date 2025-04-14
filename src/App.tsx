@@ -7,7 +7,6 @@ import reactLynxLogo from './assets/react-logo.png';
 import image1 from './assets/image1.gif';
 import image2 from './assets/image2.jpg';
 import image3 from './assets/image3.jpg';
-import { Navbar } from './Navbar.jsx';
 
 export function App() {
   const [data, setData] = useState<string | undefined>();
@@ -45,7 +44,6 @@ export function App() {
   return (
     <page>
       <view className="App w-full h-full">
-        <Navbar />
         <list
           scroll-orientation="vertical"
           item-snap={scrol}
